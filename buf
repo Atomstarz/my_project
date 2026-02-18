@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+	int a, b;
+	
+	int res=scanf("%d %d", &a, &b);
+	
+	if (res !=2) {
+		printf("er\n");
+		
+		return 0;
+	}
+	
+	int slojenie = a+b;
+	int vi4itanie =a-b;
+	int umnojenie =a*b;
+	int delenie =a/b;
+	
+	printf("%d %d %d %d\n", slojenie, vi4itanie, umnojenie, delenie);
+	
+	return 0;
+	
+}
